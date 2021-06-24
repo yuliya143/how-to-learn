@@ -31,15 +31,7 @@
   margin-top: 80px;
 }
 
-/*  add random class to <p>, further you need to delete it
-
-.random {
-  font-family: 'Inter';
-  font-size: 50px;
-  font-weight: 600;
-}
-
-*/
+/* DESCRIPTION ---------------------------------------------- */
 
 .flex-row {
   display: flex;
@@ -83,3 +75,56 @@
 .heading-text {
   margin-top: 0;
 }
+
+/* DIGITS -------------------------------------------------------- */
+
+.digits {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.header-second {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 1.15;
+  text-align: center;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.digits .text {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.faсt-number {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.15;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.fact-info {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.20;
+  color: #000000;
+  margin-bottom: 20px;
+  }
+
+  .facts {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 170px;
+  }
+
+  .fact {
+    width: 250px;
+  }
