@@ -1,3 +1,4 @@
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -28,4 +29,57 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+/*  add random class to <p>, further you need to delete it
+
+.random {
+  font-family: 'Inter';
+  font-size: 50px;
+  font-weight: 600;
+}
+
+*/
+
+.flex-row {
+  display: flex;
+}
+
+.description {
+  padding-top: 100px;
+  padding-left: 144px;
+  padding-right: 144px;
+}
+
+.heading {
+  width: 175px;
+  padding-right: 56px;
+  flex-shrink: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #2F80ED;
+}
+
+.text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.416;
+  color: #000;
+}
+
+.text:first-child {
+  margin-top: 0;
+}
+
+.text:last-child {
+  margin-bottom: 0;
+}
+
+.heading-text {
+  margin-top: 0;
 }
