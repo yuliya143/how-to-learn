@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -79,8 +81,7 @@
 /* DIGITS -------------------------------------------------------- */
 
 .digits {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding: 100px 155px 40px;
 }
 
 .header-second {
@@ -89,7 +90,7 @@
   font-size: 60px;
   line-height: 1.15;
   text-align: center;
-  color: #000000;
+  color: #000;
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -100,12 +101,12 @@
   margin-bottom: 60px;
 }
 
-.faсt-number {
+.fact-number {
   font-family: Inter;
   font-weight: 600;
   font-size: 24px;
   line-height: 1.15;
-  color: #000000;
+  color: #000;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -115,16 +116,50 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.20;
-  color: #000000;
+  color: #000;
   margin-bottom: 20px;
   }
 
   .facts {
-    justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0 170px;
-  }
+ }
 
   .fact {
-    width: 250px;
+    width: 25%;
+    padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
+
+
+  /* KUAFMAN -------------------------------------------------------- */
+
+  .kaufman {
+    background-color: #1D1D1D;
+    padding: 90px 155px 10px;
+  }
+
+  .kaufman .text {
+    text-align: center;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 80px;
+  }
+
+  .kaufman .fact-number {
+    color: #fff;
+  }
+
+  .kaufman .header-second {
+    color: #fff;
+  }
+
+  .kaufman .fact-info {
+    color: #fff;
+  }
+
+  .kaufman .fact {
+    width: 20%;
+  }
+
+
