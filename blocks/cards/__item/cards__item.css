@@ -1,0 +1,15 @@
+.cards__item {
+  width: 240px;
+}
+
+/*
+
+.cards__item:first-child {
+  margin-left: 0px;
+}
+
+.cards__item:nth-child(4) {
+  margin-left: 0px;
+}
+
+*/

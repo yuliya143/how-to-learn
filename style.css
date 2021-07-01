@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -12,6 +10,9 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/*   HEADER+++ --------------------------------------------------------------------*/
+
+/*    was before --------------------------*/
 .header {
   height: 100vh;
   min-height: 600px;
@@ -31,6 +32,44 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+
+/*  I stared to write --------------------------------------*/
+/*
+.logo {
+
+}
+
+.logo_place_header {
+
+} */
+
+.header-second {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 1.15;
+  text-align: center;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+
+.digits .text {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
 }
 
 /* DESCRIPTION ---------------------------------------------- */
@@ -49,7 +88,7 @@
   width: 175px;
   padding-right: 56px;
   flex-shrink: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
@@ -59,7 +98,7 @@
 .text {
   margin-top: 30px;
   margin-bottom: 30px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.416;
@@ -125,6 +164,7 @@
  }
 
   .fact {
+    box-sizing: border-box;
     width: 25%;
     padding-bottom: 60px;
     padding-left: 15px;
