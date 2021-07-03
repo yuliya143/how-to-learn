@@ -1,10 +1,10 @@
-.section-subtitle {
-  width: 60%;
+.feynman__subtitle {
+  margin-top: 70px;
+  margin-bottom: 0;
   font-family: 'Inter', 'Arial', sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 36px;
   line-height: 1.42;
   text-align: center;
-  margin: 0 auto;
   color: #000;
 }
