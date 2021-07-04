@@ -1,4 +1,5 @@
 .feynman {
+  box-sizing: border-box;
   height: 890px;
   background-color: #f2f2f2;
   background-image: url(../../images/feinman.png);
@@ -7,4 +8,6 @@
   background-size: 867px 637px;
   padding-top: 100px;
   position: relative;
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: #000;
 }

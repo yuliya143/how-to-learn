@@ -3,5 +3,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 60px auto;
+  padding: 0;
   width: 920px;
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: #000;
 }
