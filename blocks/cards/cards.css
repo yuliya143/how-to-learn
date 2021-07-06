@@ -2,9 +2,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 60px auto;
+  margin: 0 auto;
   padding: 0;
   width: 920px;
   font-family: 'Inter', 'Arial', sans-serif;
   color: #000;
+}
+
+.cards::after {
+  content: '';
+  width: 240px;
+  list-style-type: none;
+  margin-top: 60px;
 }
