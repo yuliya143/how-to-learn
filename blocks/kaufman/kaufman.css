@@ -6,6 +6,12 @@
   color: #fff;
   overflow: hidden;
   position: relative;
-  z-index: -2;
+}
+
+.kaufman .section-title,
+.kaufman .section-subtitle,
+.kaufman .table {
+  position: relative;
+  z-index: 1;
 }
 
